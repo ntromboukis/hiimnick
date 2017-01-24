@@ -5,13 +5,7 @@
 
 body {
     font-family: bellaboo;
-/*    background: repeating-linear-gradient(
-        45deg,
-        #30A2EF,
-        #30A2EF 100px,
-        #2484BA 100px,
-        #2484BA 150px
-    );*/
+    background-color: #30A2EF;
 }
 
 h1  {
@@ -27,11 +21,6 @@ h2 {
     padding-bottom: .3em;
 }
 
-.centered {
-    text-align: center;
-    padding: 2em 2em 0em 2em;
-}
-
 a {
     padding: 1em;
     font-size: 1.2em;
@@ -43,7 +32,13 @@ a {
     display: inline-flex;
 }
 
+.centered {
+    text-align: center;
+    padding: 2em 2em 0em 2em;
+}
+
 .count-item {
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
     padding: 1em;
     color: #fff;
