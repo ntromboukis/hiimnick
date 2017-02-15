@@ -1,30 +1,38 @@
-@font-face {
+/*@font-face {
     font-family: "bellaboo";
     src: url(fonts/BELLABOO-Regular.ttf) format("truetype");
-}
+}*/
 
 body {
-    font-family: bellaboo;
-    background-color: #30A2EF;
+    font-family: 'Lato', sans-serif;
+    background-color: #283747;
 }
 
-h1  {
-    color: #fff;
-    font-size: 9em;
-    margin: 1em 1em .5em 1em;
+h1,
+h2,
+a,
+.count-item {
+    color: #7F8C8D;
+}
+
+h2,
+a,
+.count-item {
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 3.2em;
+    margin: 5em 0em 0em 0em;
 }
 
 h2 {
-    color: #fff;
-    font-size: 2.5em;
     margin: 0px;
-    padding-bottom: .3em;
+    padding: 0em .9em .3em .1em;
 }
 
 a {
     padding: 1em;
-    font-size: 1.2em;
-    color: #fff;
     text-decoration: none;
 }
 
@@ -32,16 +40,36 @@ a {
     display: inline-flex;
 }
 
+.countdown {
+    display: inline-flex;
+}
+
+.container {
+    text-align: center;
+}
+
+.sub-container {
+    width: 500px;
+    display: inline-block;
+}
+
 .centered {
     text-align: center;
-    padding: 2em 2em 0em 2em;
+}
+
+.right {
+    text-align: right;
 }
 
 .count-item {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
-    padding: 1em;
-    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 0em .2em;
+}
+
+img {
+    margin-top: 1em;
+    display: inline-block;
+    vertical-align: -213%;
 }
 
 @media (max-width: 940px) {
